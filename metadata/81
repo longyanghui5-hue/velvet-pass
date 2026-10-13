@@ -1,0 +1,34 @@
+{
+  "name": "Velvet Pass #81",
+  "description": "Velvet Pass is a members-only collection of 88 individually numbered passes, issued on Base. Each pass is set with a midnight sapphire held in a rose-gold bezel and engraved with its own number. A quiet micro-animation sweeps light across the stone.",
+  "image": "https://cdn.jsdelivr.net/gh/longyanghui5-hue/velvet-pass@main/images/81.jpg",
+  "animation_url": "https://cdn.jsdelivr.net/gh/longyanghui5-hue/velvet-pass@main/anim/81.svg",
+  "external_url": "https://github.com/longyanghui5-hue/velvet-pass",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Velvet Pass"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "No.81 / 88"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Number",
+      "value": 81
+    },
+    {
+      "trait_type": "Gem",
+      "value": "Midnight Sapphire"
+    },
+    {
+      "trait_type": "Setting",
+      "value": "Rose Gold"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Founding Member"
+    }
+  ]
+}

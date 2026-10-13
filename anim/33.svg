@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#dfeaff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9b8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd9b8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="gemclip"><circle cx="500" cy="446" r="182"/></clipPath>
+    <clipPath id="cardclip"><rect x="0" y="0" width="1000" height="1000" rx="0"/></clipPath>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <g clip-path="url(#cardclip)">
+    <rect x="0" y="0" width="1000" height="1000" fill="#050505"/>
+    <image xlink:href="https://cdn.jsdelivr.net/gh/longyanghui5-hue/velvet-pass@main/images/33.jpg" href="https://cdn.jsdelivr.net/gh/longyanghui5-hue/velvet-pass@main/images/33.jpg" x="0" y="0" width="1000" height="1000" preserveAspectRatio="xMidYMid slice"/>
+    <g clip-path="url(#gemclip)">
+      <rect x="-360" y="240" width="360" height="420" fill="url(#sweep)" transform="rotate(18 500 446)">
+        <animateTransform attributeName="transform" type="translate" values="-360 0; 1420 0" dur="4.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-360" y="240" width="200" height="420" fill="url(#sweep)" transform="rotate(18 500 446)" opacity="0.6">
+        <animateTransform attributeName="transform" type="translate" values="-360 0; 1420 0" dur="4.4s" begin="0.35s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <ellipse cx="497" cy="747" rx="300" ry="120" fill="url(#glow)" opacity="0.5">
+      <animate attributeName="opacity" values="0.28;0.62;0.28" dur="3.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <g>
+      <circle cx="430" cy="360" r="2.6" fill="#eaf2ff">
+        <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="0.6;3.2;0.6" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="572" cy="512" r="2.2" fill="#cfe0ff">
+        <animate attributeName="opacity" values="0;0.9;0" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="0.5;2.8;0.5" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500" cy="300" r="2.0" fill="#ffffff">
+        <animate attributeName="opacity" values="0;1;0" dur="3.0s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="0.5;2.6;0.5" dur="3.0s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
