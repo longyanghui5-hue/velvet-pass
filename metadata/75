@@ -1,34 +1,24 @@
 {
   "name": "Velvet Pass #75",
-  "description": "Velvet Pass is a members-only collection of 88 individually numbered passes, issued on Base. Each pass is set with a midnight sapphire held in a rose-gold bezel and engraved with its own number. A quiet micro-animation sweeps light across the stone.",
+  "description": "香氛奢华 · 奢服兑换级。香氛与奢服兑换权益",
   "image": "https://cdn.jsdelivr.net/gh/longyanghui5-hue/velvet-pass@main/images/75.jpg",
   "animation_url": "https://cdn.jsdelivr.net/gh/longyanghui5-hue/velvet-pass@main/anim/75.svg",
-  "external_url": "https://github.com/longyanghui5-hue/velvet-pass",
   "attributes": [
     {
-      "trait_type": "Collection",
-      "value": "Velvet Pass"
+      "trait_type": "Series",
+      "value": "香氛奢华"
     },
     {
-      "trait_type": "Edition",
-      "value": "No.75 / 88"
-    },
-    {
-      "display_type": "number",
-      "trait_type": "Number",
-      "value": 75
-    },
-    {
-      "trait_type": "Gem",
-      "value": "Midnight Sapphire"
-    },
-    {
-      "trait_type": "Setting",
-      "value": "Rose Gold"
+      "trait_type": "Series Code",
+      "value": "S6"
     },
     {
       "trait_type": "Tier",
-      "value": "Founding Member"
+      "value": "奢服兑换级"
+    },
+    {
+      "trait_type": "Token ID",
+      "value": 75
     }
   ]
 }
